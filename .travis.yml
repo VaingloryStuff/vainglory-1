@@ -1,0 +1,13 @@
+language: php
+
+php:
+  - 7.0.14
+
+before_script:
+  - cp .env.travis .env
+  - mysql -e 'create database vain_test;'
+  - composer self-update
+  - composer install --no-interaction
+
+script:
+  - vendor/bin/phpunit
