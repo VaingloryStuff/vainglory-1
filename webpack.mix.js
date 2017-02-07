@@ -13,7 +13,7 @@ const { mix } = require('laravel-mix');
 
 
  mix.copy('resources/assets/css/icons/icomoon/styles.css', 'public/assets/css/icons/icomoon/styles.css');
- mix.copy('resources/assets/css/bootstrap.css', 'public/assets/css/bootstrap.css');
+ mix.copy('resources/assets/css/bootstrap.css', 'public/assets/css/bootstrap.cs');
  mix.copy('resources/assets/css/core.css', 'public/assets/css/core.css');
  mix.copy('resources/assets/css/components.css', 'public/assets/css/components.css');
  mix.copy('resources/assets/css/colors.css', 'public/assets/css/colors.css');
